@@ -1,0 +1,22 @@
+.navbar {
+
+}
+
+.navbar-blok {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-blok a {
+    outline: none;
+}
+
+.navbar-blok a img {
+    width: 120px;
+}
+
+@media (max-width: 768px) {
+    .navbar-blok a img {
+        width: 80px;
+    }
+}

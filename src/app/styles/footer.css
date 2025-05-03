@@ -1,0 +1,30 @@
+.footer {
+    padding: 20px 10px;
+    font-size: 70%;
+    text-align: center;
+    gap: 5px;
+    background-color: #eeeeee;
+}
+
+.footer p {
+    text-transform: uppercase;
+    color: #383838;
+}
+
+.footer p a {
+    color: blue;
+    text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.footer p a:hover {
+    opacity: .5;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        font-size: 65%;
+        gap: 3px;
+    }
+}

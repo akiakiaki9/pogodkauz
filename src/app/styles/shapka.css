@@ -1,0 +1,33 @@
+.shapka {
+    padding: 30px 10px;
+    background-color: #eeeeee;
+}
+
+.shapka-blok {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+}
+
+.shapka-blok a {
+    text-decoration: none;
+    color: #383838;
+    font-size: 90%;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.shapka-blok a:hover {
+    color: blue;
+}
+
+@media (max-width: 768px) {
+    .shapka {
+        padding: 20px 10px;
+    }
+    .shapka-blok a {
+        font-size: 80%;
+    }
+}
