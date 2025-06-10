@@ -4,6 +4,7 @@ import "./styles/shapka.css";
 import "./styles/footer.css";
 import "./styles/layout.css";
 import "./styles/main.css";
+import Script from "next/script";
 
 export const metadata = {
   title: "Погода Узбекистан",
@@ -37,6 +38,18 @@ export default function RootLayout({ children }) {
     <html lang="ru">
       <head>
         <link rel="icon" href="/images/logo.PNG" />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-9N3NM42RZP"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-9N3NM42RZP');
+        `}
+        </Script>
       </head>
       <body>
         {children}
