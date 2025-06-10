@@ -41,6 +41,8 @@ export default function RootLayout({ children }) {
     <html lang="ru">
       <head>
         <link rel="icon" href="/images/logo.PNG" />
+        <meta name="google-site-verification" content="HgB6pGNzNrKyMSevxhYHevLLadFRmLVKY1YVFDXUJD0" />
+        <meta name="yandex-verification" content="645ddea7324c55ca" />
       </head>
       <body>
         {children}
