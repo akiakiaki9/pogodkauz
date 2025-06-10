@@ -29,7 +29,11 @@ export const metadata = {
     card: "summary_large_image",
     title: "Pogodka — Точная погода в Узбекистане",
     description: "Прогноз на сегодня и 7 дней по городам: Ташкент, Бухара, Самарканд и другие."
-  }
+  },
+  other: {
+    'google-site-verification': 'HgB6pGNzNrKyMSevxhYHevLLadFRmLVKY1YVFDXUJD0',
+    'yandex-verification': '645ddea7324c55ca',
+  },
 };
 
 export default function RootLayout({ children }) {
