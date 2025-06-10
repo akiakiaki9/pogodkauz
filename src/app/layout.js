@@ -6,11 +6,11 @@ import "./styles/layout.css";
 import "./styles/main.css";
 
 export const metadata = {
-  title: "Pogodka — Точная погода в Узбекистане на сегодня и неделю",
-  description: "Актуальная погода по всем городам Узбекистана: Ташкент, Самарканд, Бухара и другие. Прогноз на сегодня, завтра и 7 дней. Обновляется ежедневно.",
+  title: "Погода Узбекистан",
+  description: "Актуальная погода по всем городам Узбекистана.",
   keywords: [
     "погода Узбекистан", "погода сегодня", "прогноз погоды", "Ташкент погода",
-    "погода Бухара", "погода Самарканд", "погода по городам", "погода на неделю"
+    "погода Бухара", "погода Самарканд", "погода по городам", "погода на неделю", "погода"
   ],
   applicationName: "Pogodka",
   creator: "Akbar Soft",
@@ -30,10 +30,6 @@ export const metadata = {
     title: "Pogodka — Точная погода в Узбекистане",
     description: "Прогноз на сегодня и 7 дней по городам: Ташкент, Бухара, Самарканд и другие."
   },
-  other: {
-    'google-site-verification': 'HgB6pGNzNrKyMSevxhYHevLLadFRmLVKY1YVFDXUJD0',
-    'yandex-verification': '645ddea7324c55ca',
-  },
 };
 
 export default function RootLayout({ children }) {
@@ -41,7 +37,6 @@ export default function RootLayout({ children }) {
     <html lang="ru">
       <head>
         <link rel="icon" href="/images/logo.PNG" />
-        <meta name="google-site-verification" content="HgB6pGNzNrKyMSevxhYHevLLadFRmLVKY1YVFDXUJD0" />
         <meta name="yandex-verification" content="645ddea7324c55ca" />
       </head>
       <body>
